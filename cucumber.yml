@@ -1,0 +1,7 @@
+default: --no-source --color --format pretty
+
+cadastrar: -t @comprar -f html -o html_report.html
+
+editar: -t @remover -f html -o html_report.html
+
+deletar: -t @validar -f html -o html_report.html
